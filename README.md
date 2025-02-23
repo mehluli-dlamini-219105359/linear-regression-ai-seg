@@ -25,3 +25,12 @@ Rust Cargo File (issues)
     let predicted_height = predict(slope, intercept, 29.0);
     println!("\nPredicted height for age 29: {:.2} cm", predicted_height);
 - **UPDATE** burn-ndarry in cargo file to nddary when using the model for linear regression
+
+
+TESTING WITH UNSEEN DATA (i.e. Old age , young age and incorrect data i.e. 0.0 unborn)
+- output scenario 1 (1000 years) = 908.43 cm
+- output scenario 2 (13 years)  =  156.99 cm
+- output scenario 3 (0.0) = 148.56 cm **this output needs to be resolved**
+
+- 
+
