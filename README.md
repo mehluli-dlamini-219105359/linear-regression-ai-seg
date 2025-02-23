@@ -11,7 +11,7 @@ MACOS Set Up Steps
 Rust Cargo File (issues)
 - Do not copy the contents of cargo file from Assignment pdf , issues came across were spacing and different style in quotation marks. Use a text editor to navigate through  that.
 
-**HOW TO SOLVE A REAL WORLD PROBLEM (Predicting Height using a raw data set)**
+**HOW TO SOLVE A REAL WORLD PROBLEM (Predicting Height using a synthetic/raw data set)**
 - Understand what a dataset is -> https://towardsdatascience.com/rust-the-next-big-thing-in-data-science-319a03305883/
 - Prepare a dataset , I used peoples Names , Ages and Height. This is not a linear regression model , a linear regression model.
 - A linear regression model can be done manually or by using a crate (linkregress) which can be used to find the best fitting line and make predictions.
@@ -30,7 +30,7 @@ Rust Cargo File (issues)
 TESTING WITH UNSEEN DATA (i.e. Old age , young age and incorrect data i.e. 0.0 unborn)
 - output scenario 1 (1000 years) = 908.43 cm
 - output scenario 2 (13 years)  =  156.99 cm
-- output scenario 3 (0.0) = 148.56 cm **this output needs to be resolved**
+- output scenario 3 (0.0) = 148.56 cm **this output needs to be resolved** --- UNrealistic age for an unborn child
 
-- 
-
+**STRUGGLED TO PLOT A GRAPH USING THE TEXTPLOT
+**
