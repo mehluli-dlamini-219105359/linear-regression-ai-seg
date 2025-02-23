@@ -93,6 +93,7 @@ fn main() {
     println!("\nMean Squared Error (Loss): {:.2}", loss);
 
     // Test the trained model by making a prediction for a new value (e.g., age = 29)
-    let predicted_height = forward_pass(slope, intercept, 29.0);
-    println!("\nPredicted height for age 29: {:.2} cm", predicted_height);
+    //You can use it to make a prediction for your desired age.
+    let predicted_height = forward_pass(slope, intercept, 29.00);
+    println!("\nPredicted height for age 29 (in intercept): {:.2} cm", predicted_height);
 }
