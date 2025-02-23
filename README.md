@@ -24,4 +24,4 @@ Rust Cargo File (issues)
 - **To test the predicted age of your liking , make changes to this function** :
     let predicted_height = predict(slope, intercept, 29.0);
     println!("\nPredicted height for age 29: {:.2} cm", predicted_height);
-- 
+- **UPDATE** burn-ndarry in cargo file to nddary when using the model for linear regression
